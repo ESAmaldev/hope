@@ -15,7 +15,6 @@ pnpm-lock.yaml
 .aws/
 
 
-.github/
 .github/workflows/*.log
 
 node_modules/
