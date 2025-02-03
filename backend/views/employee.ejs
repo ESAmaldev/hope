@@ -1,0 +1,22 @@
+<% include layout %>
+<h2>Employee List</h2>
+<table>
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Name</th>
+      <th>Position</th>
+      <th>Department</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% employees.forEach(employee => { %>
+      <tr>
+        <td><%= employee.id %></td>
+        <td><%= employee.name %></td>
+        <td><%= employee.position %></td>
+        <td><%= employee.department %></td>
+      </tr>
+    <% }) %>
+  </tbody>
+</table>
